@@ -1,0 +1,30 @@
+.IP4 {
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  padding: 8%;
+
+  .row {
+    margin-top: 6% !important;
+  }
+
+  .col-lg-7 {
+    margin-top: 8% !important;
+  }
+
+  .IP4-image {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    z-index: 2;
+  }
+}
+.IP4-wrapper {
+    position: relative;
+
+  .IP4-footer {
+    z-index: 1;
+    max-height: 255px;
+    height: 10vw;
+    background-color: #1C8AC4;
+    transform: translateY(-200%);
+  }
+}

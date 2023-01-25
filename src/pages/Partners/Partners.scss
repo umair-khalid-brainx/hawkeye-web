@@ -1,0 +1,56 @@
+.partners-page {
+  background: #FAFAFA 0% 0% no-repeat padding-box;
+  padding: 1% 8% 10% 8%;
+
+  .partners-section {
+    margin-bottom: -18%;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    padding: 3% 0;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 30px #D8DBE180;
+    border: 2px solid #CFD8E380;
+    border-radius: 30px;
+
+    .logo {
+      padding: 0.5% 0;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+
+      .partner-button {
+        max-width: 100%;
+        height: auto;
+        background: none;
+        border: 1px solid #CFD8E380;
+        border-radius: 20px;
+        padding: 0;
+        margin: 2%;
+
+        :hover {
+          transform: scale(1.15);
+          transition: all 0.5s ease;
+        }
+
+        :active {
+          transform: scale(1.0);
+          transition: all 0.2s ease;
+        }
+
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

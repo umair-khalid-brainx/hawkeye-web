@@ -1,0 +1,33 @@
+.Nav {
+  background: #F5F5F5 0 0 no-repeat padding-box;
+  padding: 8%;
+
+  .nav-image {
+    position: relative;
+    z-index: 1;
+    transform: scale(1.5);
+    max-width: 100%;
+    height: auto;
+  }
+
+  .top-section {
+    margin-bottom: 8%;
+  }
+
+  .nav-tabs {
+    position: relative;
+    z-index: 2;
+    .nav-item {
+      .nav-link {
+        padding: 3% 5%;
+        box-shadow: 0 0 10px #1FA7D94D !important;
+        border-radius: 30px !important;
+        color: black !important;
+        background-color: white !important;
+      }
+      .active {
+        border: 1px solid #1FA7D9 !important;
+      }
+    }
+  }
+}

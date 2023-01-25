@@ -1,0 +1,65 @@
+.Video {
+  .header-image {
+    max-width: 100%;
+    height: auto;
+  }
+  header {
+    position: relative;
+    background-color: black;
+    max-width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0.5;
+  }
+
+  header .container {
+    position: absolute;
+    z-index: 2;
+    max-width: 100%;
+    bottom: 15%;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    margin: 1% 5%;
+
+    .overlay-left {
+      float: left;
+    }
+    .overlay-right {
+      float: right;
+    }
+  }
+
+  a, a:hover, a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  .btn {
+    border-radius: 33px;
+    width: 193px;
+    height: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #1C8AC4;
+  }
+}

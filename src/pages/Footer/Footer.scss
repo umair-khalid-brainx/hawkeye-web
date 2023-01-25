@@ -1,0 +1,44 @@
+.Footer {
+  .top-footer {
+    max-width: 100%;
+    height: 1vw;
+    background-color: #1C8AC4;
+  }
+
+  .main-footer {
+    position: relative;
+    z-index: 1;
+    padding: 13% 16% 5% 16%;
+  }
+  .alt-footer {
+    position: relative;
+    z-index: 1;
+    padding: 15% 4% 2% 4%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  .muted {
+    color: #aaaaaa;
+  }
+
+  .footer-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .jj {
+    max-width: 5%;
+    height: auto;
+  }
+
+  .socials {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /* vertically align */
+    justify-content: center; /* horizontally align */
+  }
+}
