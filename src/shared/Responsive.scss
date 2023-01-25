@@ -1,0 +1,291 @@
+@media only screen and (min-width: 992px) {
+  .heading {
+    font-size: 60px !important;
+  }
+
+  .large-heading {
+    font-size: 100px !important;
+  }
+
+  .smaller-heading {
+    font-size: 50px !important;
+  }
+
+  .logo-text {
+    font-size: 25px !important;
+  }
+
+  .text {
+    font-size: 25px !important;
+  }
+
+  .footer-text {
+    font-size: 16px !important;
+  }
+
+  .accordion-text {
+    font-size: 21px !important;
+  }
+
+  .btn-text {
+    font-size: 20px !important;
+  }
+
+  .btn {
+    width: 237px;
+    height: 65px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .heading {
+    font-size: 48px !important;
+  }
+
+  .large-heading {
+    font-size: 80px !important;
+  }
+
+  .smaller-heading {
+    font-size: 40px !important;
+  }
+
+  .logo-text {
+    font-size: 20px !important;
+  }
+
+  .text {
+    font-size: 20px !important;
+  }
+
+  .footer-text {
+    font-size: 12px !important;
+  }
+
+  .accordion-text {
+    font-size: 18px !important;
+  }
+
+  .btn-text {
+    font-size: 18px !important;
+  }
+
+  .btn {
+    width: calc(0.8 * 237px) !important;
+    height: calc(0.8 * 65px) !important;
+  }
+
+  .form-image {
+    transform: scale(1) !important;
+  }
+
+  .IP1-image {
+    transform: translate(50%);
+    max-width: 50% !important;
+  }
+
+  .IP3-image {
+    position: static !important;
+    max-width: 50% !important;
+    transform: rotate(90deg) !important;
+  }
+
+  .IP3 {
+    .left-column {
+      position: static !important;
+    }
+  }
+
+  .IP4-image {
+    margin-top: 5% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .heading {
+    font-size: 36px !important;
+  }
+
+  .large-heading {
+    font-size: 60px !important;
+  }
+
+  .smaller-heading {
+    font-size: 30px !important;
+  }
+
+  .logo-text {
+    font-size: 15px !important;
+  }
+
+  .text {
+    font-size: 15px !important;
+  }
+
+  .footer-text {
+    font-size: 10px !important;
+  }
+
+  .accordion-text {
+    font-size: 15px !important;
+  }
+
+  .btn-text {
+    font-size: 15px !important;
+  }
+
+  .btn {
+    width: calc(0.6 * 237px) !important;
+    height: calc(0.6 * 65px) !important;
+  }
+
+  .text-mid {
+    padding: 0.5% 1% !important;
+  }
+
+  .partner-button {
+    max-width: 40% !important;
+  }
+
+  .form-image {
+    transform: scale(1) !important;
+  }
+
+  .IP1-image {
+    transform: translate(50%);
+    max-width: 50% !important;
+  }
+
+  .IP3-image {
+    position: static!important;
+    max-width: 50% !important;
+    transform: rotate(90deg) !important;
+  }
+
+  .IP3 {
+    .left-column {
+      position: static !important;
+    }
+  }
+
+  .IP4-image {
+    margin-top: 5% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .heading {
+    font-size: 20px !important;
+    line-height: 25px !important;
+  }
+
+  .large-heading {
+    font-size: 40px !important;
+    line-height: 25px !important;
+  }
+
+  .smaller-heading {
+    font-size: 12px !important;
+    line-height: 20px !important;
+  }
+
+  .logo-text {
+    font-size: 12px !important;
+    line-height: 20px !important;
+    letter-spacing: 0 !important;
+  }
+
+  .text {
+    font-size: 12px !important;
+    line-height: 20px !important;
+  }
+
+  .footer-text {
+    font-size: 8px !important;
+    line-height: 15px !important;
+  }
+
+  .accordion-text {
+    font-size: 12px !important;
+  }
+
+  .btn-text {
+    font-size: 10px !important;
+  }
+
+  .btn {
+    width: calc(0.4 * 237px) !important;
+    height: calc(0.4 * 65px) !important;
+  }
+
+  .logo {
+    max-width: 10% !important;
+  }
+
+  .IP2, .IP3, .IP5, .faq-page, .partners-page, .parent-section, .parent-section-bike {
+    padding: 3% !important;
+  }
+
+  .text-mid {
+    padding: 0.5% 1% !important;
+  }
+
+  .partner-button {
+    max-width: 40% !important;
+  }
+
+  .form-image {
+    transform: scale(1) !important;
+  }
+
+  .IP1-image {
+    transform: translate(50%);
+    max-width: 50% !important;
+  }
+
+  .IP3-image {
+    position: static !important;
+    max-width: 50% !important;
+    transform: rotate(90deg) !important;
+  }
+
+  .IP3 {
+    .left-column {
+      position: static !important;
+    }
+  }
+
+  .IP4-image {
+    margin-top: 5% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1335px) {
+  .IP4-footer {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1025px)  {
+  .Header {
+    display: none !important;
+  }
+  .Video {
+    .overlay-right {
+      display: none !important;
+    }
+    .overlay-right-alt {
+      display: block !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px)  {
+  .nav-image {
+    position: static !important;
+    transform: scale(1) !important;
+  }
+}

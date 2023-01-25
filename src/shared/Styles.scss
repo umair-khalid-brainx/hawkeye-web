@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Campton';
+  src: local('Campton'), url(../fonts/campton/Campton.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(../fonts/lato/Lato-Black.woff) format('woff');
+}
+
+.logo {
+  padding: 0.5% 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-text {
+  padding: 0.5% 0;
+  font: normal normal 900 25px/30px Lato;
+  letter-spacing: 2.5px;
+  color: #1C8AC4;
+}
+
+.heading {
+  padding: 0.5% 0;
+  font: normal normal 900 60px/80px Lato;
+}
+
+.large-heading {
+  padding: 0.5% 0;
+  font: normal normal 900 100px/120px Lato;
+}
+
+.text {
+  padding: 0.5% 0;
+  font: normal normal normal 25px/40px Campton;
+}
+
+.header-text {
+  font: normal normal normal 20px/26px Campton;
+  color: #FFFFFF;
+}
+
+.footer-text {
+  font: normal normal 300 16px/40px Campton;
+  color: #FFFFFF;
+}

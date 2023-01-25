@@ -1,0 +1,20 @@
+.Header {
+  display: flex;
+
+  .top-header-text {
+    flex: 0.93;
+    padding-left: 8%;
+    font: normal normal medium 16px/21px Campton;
+    letter-spacing: 0;
+    text-transform: capitalize;
+  }
+
+  a {
+    font-weight: bold;
+    color: white;
+  }
+
+  .header-icons {
+    right: 100px;
+  }
+}

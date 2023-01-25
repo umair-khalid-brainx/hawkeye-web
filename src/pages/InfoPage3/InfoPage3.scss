@@ -1,0 +1,20 @@
+.IP3 {
+  background: #FAFAFA 0 0 no-repeat padding-box;
+  padding: 12% 8%;
+
+  .IP3-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .left-column {
+    position: relative;
+  }
+
+  .IP3-image {
+    max-width: 150%;
+    height: auto;
+    transform: translatex(-10%) translateY(-50%);
+    position: absolute;
+  }
+}

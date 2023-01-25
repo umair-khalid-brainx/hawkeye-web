@@ -1,0 +1,63 @@
+.faq-page {
+  background: #FAFAFA 0% 0% no-repeat padding-box;
+  padding: 6% 8% 8% 8%;
+
+  .accordion-text {
+    padding: 0.5% 0;
+    font: normal normal normal 21px/27px Campton;
+    letter-spacing: 0;
+    color: #000000;
+  }
+
+  .btn-text {
+    padding: 0.1% 0;
+    font: normal normal normal 20px/26px Campton;
+    font-weight: bold;
+    letter-spacing: 0;
+  }
+
+  .btn {
+    border-radius: 33px;
+    width: 237px;
+    height: 65px;
+    text-align: center;
+  }
+  .btn-left {
+    color: #000000;
+    border: 1px solid #000000;
+  }
+  .btn-right {
+    color: #FFFFFF;
+    background: #1C8AC4 0 0 no-repeat padding-box;
+  }
+
+  .accordion-body, .accordion-button {
+    width: 100%;
+    height: auto;
+  }
+
+  .accordion-button:focus {
+    box-shadow: none;
+    background: #FAFAFA 0 0 no-repeat padding-box;
+    border-color: rgba(0,0,0,.125);
+  }
+
+  .accordion-item {
+    background: #FAFAFA 0 0 no-repeat padding-box;
+    padding: 1.5% 0;
+    border-top: 1px solid lightgray;
+    border-left: 0;
+    border-right: 0;
+  }
+  .accordion-item-last {
+    border-bottom: 1px solid lightgray;
+  }
+
+  .accordion {
+    margin-top: 5%;
+  }
+
+  .accordion-button.collapsed::after {
+    background-image: url("../../../public/assets/plus.png");
+  }
+}
